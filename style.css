@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  font-family: 'Open Sans';
+  font-size: 85%;
+}
+
+.container {
+  display: flex;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.wrapper {
+    margin: 0 auto;
+    flex-wrap: nowrap;
+}
+
+.header {
+  padding: 2em ;
+  justify-content: flex-start;
+  background: rgba(102, 205, 170, 0.5);
+}
+
+.title {
+  margin: 0 1em;
+}
+
+.photo {
+  height: 8em;
+  width: 8em;
+}
+
+.italic {
+  font-family: 'Roboto';
+}
+
+.main {
+  flex-grow: 1;
+  padding: 2em;
+}
+
+.label {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: stretch;
+  flex-direction: row;
+}
+
+.label span {
+  margin-right: 0.3em;
+}
+
+.position {
+  margin-bottom: 0.3em;
+}
+
+.term {
+  color:gray;
+  margin: 0.3em 0;
+  font-size: smaller;
+}
+
+.experience-table {
+  margin-left: 1.5em;
+  font-size: 95%;
+}
+
+.summary {
+  font-family: 'Roboto';
+  margin: 0.3em 0;
+}
+
+.separation {
+  margin-bottom: 1em;
+}
+
+.aside {
+  flex-grow: 1;
+  background: rgba(102, 205, 170, 0.1);
+  padding: 2em;
+}
+
+.aside h4 {
+  margin-bottom: 0;
+}
+
+.link {
+    /* text-decoration: none; */
+    color: inherit;
+}
