@@ -1,0 +1,14 @@
+header {
+  padding: 2em ;
+  justify-content: flex-start;
+  background: rgba(102, 205, 170, 0.5);
+
+  .title{
+    margin: 0 1em;
+  }
+
+  .photo {
+    height: 8em;
+    width: 8em;
+  }
+}

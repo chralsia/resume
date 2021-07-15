@@ -1,0 +1,29 @@
+body {
+  font-family: 'Open Sans';
+  font-size: 85%;
+}
+
+.container {
+  display: flex;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.italic {
+  font-family: 'Roboto';
+}
+
+.link {
+    /* text-decoration: none; */
+    color: inherit;
+}

@@ -1,0 +1,60 @@
+main {
+  &.wrapper {
+   margin: 0 auto;
+   flex-wrap: nowrap;
+ }
+
+  .main {
+    flex-grow: 1;
+    padding: 2em;
+  }
+
+  .label {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: stretch;
+    flex-direction: row;
+
+    & span {
+        margin-right: 0.3em;
+    }
+  }
+
+  section {
+    &.separation {
+      margin-bottom: 1em;
+    }
+
+    .position {
+      margin-bottom: 0.3em;
+    }
+
+    .term {
+      color:gray;
+      margin: 0.3em 0;
+      font-size: smaller;
+    }
+
+    .summary {
+      font-family: 'Roboto';
+      margin: 0.3em 0;
+    }
+
+    table {
+      margin-left: 1.5em;
+      font-size: 95%;
+    }
+  }
+
+  .aside {
+    flex-grow: 1;
+    background: rgba(102, 205, 170, 0.1);
+    padding: 2em;
+
+    h4 {
+      margin-bottom: 0;
+    }
+  }
+}
